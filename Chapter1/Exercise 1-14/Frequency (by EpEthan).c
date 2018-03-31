@@ -40,7 +40,7 @@ int hist_of_word_freq(void)
 				printf(" '%c'  | ", i);
 			for (j = 0; j < char_frequencies[i]; ++j)
 				printf("=");
-
+			putchar('\n');
 
 			/* If you want to view the amount of times each of the character was used (I misread the instructions, made this and kept it...)
 			if ((char)(i) == '\n')
