@@ -56,4 +56,6 @@ int hist_of_word_freq(void)
 			printf("\t (OR %d/%d) \n", char_frequencies[i], characters);
 		}
 	*/
+	
+	return 0;
 }
