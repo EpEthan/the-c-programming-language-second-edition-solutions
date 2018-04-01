@@ -32,10 +32,13 @@ int hist_of_word_freq(void)
 	printf("\n Char | Count\n");
 	for (i = 0; i <= NUM_CHARS; ++i)
 		if (char_frequencies[i] > 0) {
-			if ((char)(i) == '\n') /* the syntax '(char)(x)' (where x is an integer) will produce the corresponding character for x (for the table of all of them, reffer to https://www.asciitable.com/ */
-				printf(" '%s%s' | ", "\\", "n"); /* if you write '\n' as one string, it will just put a new line, hence the separation */
+			if ((char)(i) == '\n') /* the syntax '(char)(x)' (where x is an integer) will produce the corresponding 
+						character for x (for the table of all of them, reffer to https://www.asciitable.com/ */
+				printf(" '%s%s' | ", "\\", "n"); /* if you write '\n' as one string, it will just put a new line, 
+								hence the separation */
 			else if ((char)(i) == '\t')
-				printf(" '%s%s' | ", "\\", "t"); /* if you write '\t' as one string, it will just put a tab, hence the separation */
+				printf(" '%s%s' | ", "\\", "t"); /* if you write '\t' as one string, it will just put a tab, 
+								hence the separation */
 			else
 				printf(" '%c'  | ", i);
 			for (j = 0; j < char_frequencies[i]; ++j)
