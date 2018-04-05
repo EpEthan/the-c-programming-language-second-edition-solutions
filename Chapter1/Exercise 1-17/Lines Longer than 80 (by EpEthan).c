@@ -2,7 +2,7 @@
 * Author: EpEthan
 * Created using Jeremy Yu's (ccpalettes) solution
 *
-* EpEthan's solution for Exercise 1-14, Chapter1.
+* EpEthan's solution for Exercise 1-17, Chapter1.
 */
 
 #include <stdio.h>
