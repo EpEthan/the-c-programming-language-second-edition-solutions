@@ -2,7 +2,7 @@
 * Author: EpEthan
 *
 * EpEthan's solution for Exercise 1-14, Chapter1.
- */
+*/
 
 
 #include <stdio.h>
