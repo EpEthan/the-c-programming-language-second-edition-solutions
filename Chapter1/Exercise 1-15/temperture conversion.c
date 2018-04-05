@@ -1,5 +1,11 @@
-#include <stdio.h>
+/*
+* Author: EpEthan
+*
+* EpEthan's solution for Exercise 1-14, Chapter1.
+ */
 
+
+#include <stdio.h>
 
 double temp_conversion(int fahr, int cels);
 
