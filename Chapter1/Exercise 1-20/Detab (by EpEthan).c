@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 #define MAXLINE 1000 /* maximum input line size */
-#define TABSPACE 40 /* the spce fo the tabs in the line; tab = 4 spaces */
+#define TABSPACE 40 /* the space for the tabs in the line; tab = 4 spaces */
 
 char line[MAXLINE];	/* current input line */
 char notab_line[MAXLINE];	/* line without the tabs saved here */
