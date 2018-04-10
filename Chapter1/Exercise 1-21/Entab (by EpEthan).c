@@ -15,6 +15,7 @@ void entab(char from[], char to[]);
 
 main()
 {
+	int i;
 	char line[MAXLINE];
 	char output_line[MAXLINE];
 
@@ -22,7 +23,7 @@ main()
 		entab(line, output_line);
 
 		printf("\n\n---------------------------------ENTAB RESULT----------------------------------\n");
-		for (int i = 0; output_line[i] != '\n'; ++i)
+		for (i = 0; output_line[i] != '\n'; ++i)
 			printf("%c|", output_line[i]);	/* the character '|' is for seperating each character and
 											** verifying the space have indeed become tabs */
 		printf("\n-------------------------------------------------------------------------------\n");
