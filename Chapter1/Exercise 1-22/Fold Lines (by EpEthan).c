@@ -63,7 +63,7 @@ void fold(char from[], char to[])
 	for (i = 0, chars_in_line = 0; from[i] != '\0'; ++i, ++chars_in_line) {
 		to[i] = from[i];
 
-		if (to[i] == ' ')
+		if (to[i] == ' ' || to[i] == '\t')
 			last_blank = i;
 		if (chars_in_line == PERLINE - 1) {
 			chars_in_line = 0;
