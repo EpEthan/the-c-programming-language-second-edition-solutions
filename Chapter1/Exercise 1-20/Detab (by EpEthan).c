@@ -18,7 +18,6 @@ void detab(void);
 
 
 
-/* print longest input line */
 main()
 {
 	int i;
