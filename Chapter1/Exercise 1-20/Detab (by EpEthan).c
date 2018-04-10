@@ -5,7 +5,7 @@
 */
 
 
-#include <stdio.h> /
+#include <stdio.h>
 
 #define MAXLINE 1000 /* maximum input line size */
 #define TABSPACE 40 /* the space for the tabs in the line; tab = 4 spaces */
