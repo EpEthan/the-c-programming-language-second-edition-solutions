@@ -23,7 +23,8 @@ main()
 
 		printf("\n\n---------------------------------ENTAB RESULT----------------------------------\n");
 		for (int i = 0; output_line[i] != '\n'; ++i)
-			printf("%c|", output_line[i]);
+			printf("%c|", output_line[i]);	/* the character '|' is for seperating each character and
+											** verifying the space have indeed become tabs */
 		printf("\n-------------------------------------------------------------------------------\n");
 
 	}
