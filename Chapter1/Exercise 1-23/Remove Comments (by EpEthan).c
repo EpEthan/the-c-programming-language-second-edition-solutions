@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-#define MAXLINE 1500	/* maximum length of input line */
+#define MAXLINE 3000	/* maximum length of input line */
 
 int getline(char s[]);
 void rem_com(char from[], char to[]);
