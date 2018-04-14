@@ -1,7 +1,7 @@
 /*
 * Author: EpEthan
 *
-* EpEthan's solution for Exercise 1-23, Chapter1.
+* EpEthan's solution for Exercise 1-24, Chapter1.
 */
 
 
