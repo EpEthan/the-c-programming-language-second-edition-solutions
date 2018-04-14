@@ -1,3 +1,10 @@
+/*
+* Author: EpEthan
+*
+* EpEthan's solution for Exercise 1-23, Chapter1.
+*/
+
+
 #include <stdio.h>
 
 #define MAXLINE 3000	/* maximum length of input line */
