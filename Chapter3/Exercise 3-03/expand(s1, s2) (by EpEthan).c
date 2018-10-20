@@ -13,8 +13,6 @@ int main() {
 	printf("%s\n", s1);
 	printf("=> %s", s2);
 
-	while (getchar() != EOF)
-		;
 	return 0;
 }
 
