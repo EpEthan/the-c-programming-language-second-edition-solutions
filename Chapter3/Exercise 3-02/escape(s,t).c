@@ -16,14 +16,13 @@ int main() {
 	for (i = 0; s[i] != '\0'; ++i)
 		printf("%c", s[i]);
 
-	while (getchar() != EOF)
-		;
+
 	return 0;
 }
 
 
-/* Convert characters like 'tab' and 'newline' to visible excape sequences like '\t' and '\n' and 
-** copy them from t[] to s[] */
+/* Convert characters like 'tab' and 'newline' to visible escape sequences like '\t' and '\n' and 
+copy them from t[] to s[] */
 void escape(char s[], char t[]) {
 	int i, j;
 
@@ -48,10 +47,6 @@ void escape(char s[], char t[]) {
 		case '\b':
 			s[j++] = '\\';
 			s[j] = 'b';
-			break;
-		case '?':
-			s[j++] = '\\';
-			s[j] = '?';
 			break;
 		default:
 			s[j] = t[i];
